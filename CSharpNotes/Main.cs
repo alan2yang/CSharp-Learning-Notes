@@ -24,20 +24,28 @@ namespace CSharpNotes
 
 
     //事件代码
+    //class Program
+    //{
+    //    static void Main()
+    //    {
+    //        AboutEventPub aboutEventPub = new AboutEventPub();
+    //        AboutEventSub aboutEventSub = new AboutEventSub(aboutEventPub);
+
+    //        aboutEventPub.DoCount();
+    //        Console.WriteLine($"{aboutEventSub.NumCount}");
+
+    //    }
+    //}
+
+    
+    //字段加载顺序
     class Program
     {
-        static void Main()
-        {
-            AboutEventPub aboutEventPub = new AboutEventPub();
-            AboutEventSub aboutEventSub = new AboutEventSub(aboutEventPub);
-
-            aboutEventPub.DoCount();
-            Console.WriteLine($"{aboutEventSub.NumCount}");
-
-        }
+            static void Main()
+            {
+                Console.WriteLine(AboutActionOrder.x);
+            }
     }
-
-
 
 
 
