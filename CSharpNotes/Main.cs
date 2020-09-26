@@ -39,14 +39,30 @@ namespace CSharpNotes
 
     
     //字段加载顺序
+    //class Program
+    //{
+    //        static void Main()
+    //        {
+    //            Console.WriteLine(AboutActionOrder.x);
+    //        }
+    //}
+
+
     class Program
     {
-            static void Main()
-            {
-                Console.WriteLine(AboutActionOrder.x);
-            }
-    }
+        static void Main()
+        {
+            int a=0;
 
+            Console.WriteLine(a++);
+
+            Console.WriteLine(++a);
+
+            object b = "str";
+            int c = (int)b;
+
+        }
+    }
 
 
 }
