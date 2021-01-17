@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30320.27
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpNotes", "CSharpNotes\CSharpNotes.csproj", "{40D072CD-E08F-4D99-9C1D-E3FFA221AF46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpNotes", "CSharpNotes\CSharpNotes.csproj", "{40D072CD-E08F-4D99-9C1D-E3FFA221AF46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "基础", "基础\基础.csproj", "{4FD1FC51-F234-418C-8D4D-86AE0F687892}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{40D072CD-E08F-4D99-9C1D-E3FFA221AF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40D072CD-E08F-4D99-9C1D-E3FFA221AF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40D072CD-E08F-4D99-9C1D-E3FFA221AF46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD1FC51-F234-418C-8D4D-86AE0F687892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD1FC51-F234-418C-8D4D-86AE0F687892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD1FC51-F234-418C-8D4D-86AE0F687892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD1FC51-F234-418C-8D4D-86AE0F687892}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
